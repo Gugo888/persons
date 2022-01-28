@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import { Person } from '../app.component'
 @Component({
   selector: 'app-person',
   templateUrl: './person.component.html',
@@ -12,4 +12,8 @@ export class PersonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+}
+
+export function f() {
+  
 }

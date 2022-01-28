@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { f } from './person/person.component'
 export type Person = {
   name: string;
   url: string
