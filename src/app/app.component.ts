@@ -22,3 +22,4 @@ export class AppComponent {
 }
 let x:number = 50
 let y = "Gugo"
+let z = "Rafo"
