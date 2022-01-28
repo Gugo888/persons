@@ -10,6 +10,7 @@ export type Person = {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  bool = true;
   persons: Person[] = [
     {name: 'Narek', url: 'assets/narek.jpg'},
     {name: 'Luso', url: 'assets/luso.jpg'},
@@ -17,5 +18,8 @@ export class AppComponent {
     {name: 'Goqor', url: 'assets/goqor.jpg'},
     {name: 'Hermine', url: 'assets/hermine.jpeg'},
   ]
+
+  selectedPerson: Person;
+
 }
 
