@@ -20,3 +20,5 @@ export class AppComponent {
     {name: 'Hermine', url: 'assets/hermine.jpeg'},
   ]
 }
+let x:number = 50
+let y = "Gugo"
