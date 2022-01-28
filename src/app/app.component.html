@@ -1,4 +1,3 @@
 <button *ngFor="let person of persons" (click)="selectedPerson = person">{{person.name}}</button>
-
-<app-person *ngIf="bool" [person]="selectedPerson"></app-person>
-<button (click)="bool = !bool">asd</button>
+<button (click)="selectedPerson = null">X</button>
+<app-person *ngIf="selectedPerson" [person]="selectedPerson"></app-person>
