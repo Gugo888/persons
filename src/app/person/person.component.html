@@ -1,3 +1,3 @@
-<div>
-    <h1>{{persons[0].name}}</h1>
-</div>
+<button (click)="visibility()">{{persons.name}}</button>
+<img *ngIf="bool" [src]="persons.url">
+

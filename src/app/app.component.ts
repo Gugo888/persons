@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { f } from './person/person.component'
 export type Person = {
   name: string;
   url: string
@@ -11,7 +10,6 @@ export type Person = {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
   persons: Person[] = [
     {name: 'Narek', url: 'assets/narek.jpg'},
     {name: 'Luso', url: 'assets/luso.jpg'},
@@ -20,6 +18,4 @@ export class AppComponent {
     {name: 'Hermine', url: 'assets/hermine.jpeg'},
   ]
 }
-let x:number = 50
-let y = "Gugo"
-let z = "Rafo"
+

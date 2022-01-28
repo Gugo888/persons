@@ -1,19 +1,23 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Person } from '../app.component'
+// import { Person } from '../app.component'
 @Component({
   selector: 'app-person',
   templateUrl: './person.component.html',
   styleUrls: ['./person.component.css']
 })
 export class PersonComponent implements OnInit {
-@Input() persons:any
-  constructor() { }
 
-  ngOnInit(): void {
+  @Input() persons:any;
+  bool = false
+  visibility() {
+    if(!this.bool) {
+      this.bool = true;
+    } else {
+      this.bool = false
+    }
   }
-
-}
-
-export function f() {
   
+ ngOnInit(): void {
+     
+ }
 }
