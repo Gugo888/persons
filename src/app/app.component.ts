@@ -18,7 +18,6 @@ export class AppComponent {
     {name: 'Hermine', url: 'assets/hermine.jpeg'},
   ]
 
-  selectedPerson: Person;
 
 }
 
